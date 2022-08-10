@@ -1,0 +1,227 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    /* Brush Script MT, cursive*/
+}
+
+.header{
+
+}
+
+/*
+.header-image{
+     position: relative;
+    margin-right:50%;
+    width: 100px;
+    text-align: center;
+}
+*/
+
+.top-navigation-bar{
+    position: relative;
+    background-color: #FFEDED;
+    overflow: hidden;
+}
+
+.top-navigation-bar a{
+    float: center;
+    color: #B3541E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    color: #362222;
+
+}
+
+.desc{
+    font-size: 22px;
+}
+
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2.5rem;
+    color: #362222;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Uchen', serif;
+    color: #362222;
+}
+
+.intro{
+    width:40%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.top-container{
+    background-color: #FFEDED;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #FFEDED;
+    padding: 3rem 0 3rem 0;
+    margin-top: 3rem;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align:left;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #D3D3D3 6px;
+    border-bottom: None;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skill-image{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+
+.happy-people{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+a{
+    color: #FFCCD2;
+    font-family: 'Tajawal', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B3541E;
+}
+
+.copyright{
+    color: #B3541E;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+  background: #B3541E;
+  background-image: -webkit-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -moz-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -ms-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -o-linear-gradient(top, #B3541E, #B3541E);
+  background-image: linear-gradient(to bottom, #B3541E, #B3541E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #FFCCD2;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #362222;
+  background-image: -webkit-linear-gradient(top, #362222, #FFCCD2);
+  background-image: -moz-linear-gradient(top, #362222, #FFCCD2);
+  background-image: -ms-linear-gradient(top, #362222, #FFCCD2);
+  background-image: -o-linear-gradient(top, #362222, #FFCCD2);
+  background-image: linear-gradient(to bottom, #362222, #FFCCD2);
+  text-decoration: none;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn-me{
+  background: #B3541E;
+  background-image: -webkit-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -moz-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -ms-linear-gradient(top, #B3541E, #B3541E);
+  background-image: -o-linear-gradient(top, #B3541E, #B3541E);
+  background-image: linear-gradient(to bottom, #B3541E, #B3541E);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #FFCCD2;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.btn-me:hover {
+  background: #FFCCD2;
+  background-image: -webkit-linear-gradient(top, #FFCCD2, #B3541E);
+  background-image: -moz-linear-gradient(top, #FFCCD2, #B3541E);
+  background-image: -ms-linear-gradient(top, #FFCCD2, #B3541E);
+  background-image: -o-linear-gradient(top, #FFCCD2, #B3541E);
+  background-image: linear-gradient(to bottom, #FFCCD2, #B3541E);
+  text-decoration: none;
+}
+
+.about-me-head{
+    background-color: #FFEDED;
+    position: relative;
+
+}
+
+.about-me-image{
+    margin: 50px 0 0 0;
+
+}
+
+.about-me-name{
+    text-align: center;
+    font-size: 50px;
+    color: #362222;
+    margin-top: 10px;
+}
+
+.entry-container{
+    padding-top: 20px;
+    margin: 50px 200px 0px 200px;
+    width: 50%;
+    text-align: left;
+}
+
+.entry-photo{
+    float: right;
+    margin-left: 20px;
+}
+
+
+
